@@ -1,3 +1,5 @@
+let countdown = 3
+
 const locations = [
   '🏤', '🏥', '🏭', '🏢', '🏣', '⛽️',
 ]
@@ -115,6 +117,13 @@ function movePeople() {
 
   drawPeople()
   youWon()
+}
+
+
+function checkForLoss() {
+  if (countdown == 3) {
+
+  }
 }
 
 drawPeople()
