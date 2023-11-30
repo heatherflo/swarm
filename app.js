@@ -123,7 +123,14 @@ function movePeople() {
 function checkForLoss() {
   if (countdown == 3) {
 
+  } else if (countdown == 2) {
+
+  } else if (countdown == 1) {
+
+  } else (countdown == 0); {
+    window.alert("You lost. So Sorry...")
   }
+
 }
 
 drawPeople()
